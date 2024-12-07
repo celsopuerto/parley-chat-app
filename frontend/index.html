@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/parley.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Parley | Chat App</title>
+    <script>
+      // Apply the saved theme from localStorage on page load
+      const savedTheme = localStorage.getItem("chat-theme") || "coffee";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
   </head>
   <body>
     <div id="root"></div>
