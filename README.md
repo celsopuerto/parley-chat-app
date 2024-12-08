@@ -19,6 +19,7 @@
   - [React](https://reactjs.org/) - For building the user interface.
   - [TailwindCSS](https://tailwindcss.com/) - For styling and responsiveness.
   - [Daisy UI](https://daisyui.com/) - For pre-designed components and themes.
+  - [Vite](https://vite.dev/) - For pre-designed components and themes.
 
 - **Backend**:
   - [Node.js](https://nodejs.org/) - JavaScript runtime.
